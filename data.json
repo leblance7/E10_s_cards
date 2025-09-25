@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "JavaScript Fundamentals",
+      "description": "Learn the basics of JavaScript programming including variables, functions, and control structures.",
+      "category": "Programming",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "HTML5 Semantic Elements",
+      "description": "Understanding the importance of semantic HTML elements for accessibility and SEO.",
+      "category": "Web Development",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "CSS Grid Layout",
+      "description": "Master CSS Grid for creating complex, responsive layouts with ease.",
+      "category": "CSS",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Progressive Web Apps",
+      "description": "Build web applications that work offline and provide native app-like experiences.",
+      "category": "PWA",
+      "featured": true
+    },
+    {
+      "id": 5,
+      "title": "API Integration",
+      "description": "Learn how to fetch and display data from external APIs in your web applications.",
+      "category": "JavaScript",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Bootstrap Components",
+      "description": "Utilize Bootstrap's component library to build responsive user interfaces quickly.",
+      "category": "CSS Framework",
+      "featured": false
+    }
+  ],
+  "metadata": {
+    "total": 6,
+    "lastUpdated": "2025-01-15",
+    "version": "1.0"
+  }
+}

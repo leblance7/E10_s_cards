@@ -1,0 +1,20 @@
+{
+  "name": "flash-card-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
