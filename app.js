@@ -55,7 +55,7 @@ async function loadData() {
 async function loadCards() {
   const response = await fetch('cards.json');
   const data = await response.json();
-  return data.categories.flatMap(category => category.cards);
+  return data
 }
 
 function createCard(item) {
