@@ -1,0 +1,108 @@
+
+Testing
+Creating the outline for project folder based on the flash-card-starter project.
+09/25/25 9:27pm
+/** ================== app.js =================== */
+app.js
+        + The .eventHandler() using javascript, determine the
+                website behavior.
+        + Use #1 'serviceWorker' in navigator to register
+                'sw.js'
+        + does registering sw.js allow more actions from the
+                website or allow a completed version.
+
+/** ================= cards.json ==================== */
+cards.json
+        + Order hierarchy of containers similar to a family
+                a family tree.
+        + 1) Outter most layer "catergories",
+                2) Sub-containers: "Math" & "Science".
+        + 3) Lowest folders containing multiple of front and
+                and back.
+                + Literal or simplest Primative Mark UP
+                        lanuage.
+                + Containing cards and catergories.
+                + Cards contains "front":  " etc. . . "
+                                 "back": "etc. . ."
+
+/** =============== data.json ======================= */
+Outer most shell: "items" [     
+        {
+                "id": 1
+                "title": "sdafsadf"
+                "description": "yaaadadada yadada"
+                "category": Web development"
+                "featured": "false"
+                /** This feature is listed as false. */
+        }
+        {
+                Ex: card 2, 3, 4, 5, etc
+        }
+]
+
+"metadata": {
+        "total": 6 /** Number of individual cards */
+        "lastUpdated": "year-month-day"
+        "version": "1.0"
+}
+
+/** =============== index.html ====================== */
+index.html
+        +<!DOCTYPE> : Declaration of .html file type.
+        <head>
+        1) <!-- Bootstrap -->
+                + Link to bootstrap file affecting 
+                        individual elements in the 
+                        index.html layout file.
+                + Repeats this process for  the <!-- PWA 
+                        Manifest, Theme color for PWA, apple 
+                        icon for IOS
+        </head>
+
+        *Defines the container for each section by 
+                "container mt-4", "row", "col-12".
+        * Creates the .div container for the main section 
+                and then uses the same formatt for each card.
+
+        2) Scipt connections to Bootstrap and JavaScript
+                <script src = "node_modules/bootstrap/dist/
+                        js/bootstrap.bundle.min.js">
+                </script>
+               <script src="app.js"></script>
+/** ================= manifest.json ============== */
++ Contains "name" = "JAM Stack Demo", and alias "short_name"
+        = "JAM Demo"
+        "description",
+        "start_url: "/",
+        "display": "standalone",
+        "example" = "etc"
+        /* All page formatting concerning other .json and 
+                html elements inside of the page.
+
+/** Example from manifest.json */
+        + "icons": [
+                {
+                        "src": "icon-192.png",
+                        "sizes": "192x192",
+                        "type": "image/png"
+                        "purpose": "any maskable"
+                }
+        ]
+        + Both concerning categories "utilites", 
+                "productivity"]
+
+/** ================== package-lock.json ========== */
+        *Libraries from which the .json files pull from.
+
+/** ================== package.json ======= */
++ Contains a debugging script.
+
+/* =============== sw.js ============== */
+/* Function header: == > & example: */
++ Contains .addEventListeners('install', event => {
+        event.waitUntil(
+                cache.open(CAHCE_NAME)
+                        .then(cache.addAll(urlsToCache))
+        );
+});
+
