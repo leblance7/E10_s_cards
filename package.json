@@ -12,7 +12,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "package.json": "^0.0.0"
   },
   "devDependencies": {
     "serve": "^14.2.0"
