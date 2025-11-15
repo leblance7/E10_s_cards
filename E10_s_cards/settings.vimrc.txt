@@ -7,12 +7,16 @@ set shiftround
 set nojoinspaces
 set number
 set clipboard+=unnamedplus
+set clipboard=unnamedplus
+vnoremap <C-c> "*y 
+"https://stackoverflow.com/questions/11489428/how-can-i-make-vim-paste-from-and-copy-to-the-systems-clipboard 
 
 "colorscheme wildcharm
 
-"call plug#begin()
-"Plug 'https://github.com/mattn/emmet-vim.git'
+"call plug#begin('~/.vimrc/plugged')
+"Plug   'mattn/emmet-vim'
 "call plug#end()
 
 "Don't expand tabs in Makefile
 autocmd FileType make set local noexpandtab
+
