@@ -1,0 +1,3 @@
+1) Create my weekly website 
+2)That allows coping and pasting between windows. Copying the buffer into the computer clipboard.
+3) Open index.html from vim or the wsl terminal
