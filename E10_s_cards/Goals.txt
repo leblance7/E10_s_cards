@@ -1,3 +1,13 @@
 1) Create my weekly website 
 2)That allows coping and pasting between windows. Copying the buffer into the computer clipboard.
 3) Open index.html from vim or the wsl terminal
+4)Experiment a little with vim.
+
+11-21-25, 
+- Added "let g:user_emmet_leader_key=','", to .vimrc file.
+        Making entering 'tag mode' easier.
+
+11-22-25,
+- Making a connection from vim to internet browser. May or 
+        may not work with CSS and JavaScript exentsions.
+- Works with CSS and JavaScript Exentsions.
